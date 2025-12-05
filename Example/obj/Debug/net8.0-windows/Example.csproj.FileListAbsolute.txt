@@ -22,3 +22,12 @@ D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form6.resou
 D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form7.resources
 D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form8.resources
 D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form9.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form10.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.sourcelink.json
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form11.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form12.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form13.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form14.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form15.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.Form16.resources
+D:\LuuCongTuanEm_2123110139\Example\obj\Debug\net8.0-windows\Example.MenuForm.resources

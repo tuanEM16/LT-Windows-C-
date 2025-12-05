@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\LuuCongTuanEm_2123110139\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\luucongtuanem_2123110139\\example\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\luucongtuanem_2123110139\\example\\form9.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form9.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\luucongtuanem_2123110139\\example\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\luucongtuanem_2123110139\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,58 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LuuCongTuanEm_2123110139\\Example\\Program.cs",
               "RelativeDocumentMoniker": "Example\\Program.cs",
               "ToolTip": "D:\\LuuCongTuanEm_2123110139\\Example\\Program.cs",
               "RelativeToolTip": "Example\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T07:25:53.031Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form9.cs [Design]",
-              "DocumentMoniker": "D:\\LuuCongTuanEm_2123110139\\Example\\Form9.cs",
-              "RelativeDocumentMoniker": "Example\\Form9.cs",
-              "ToolTip": "D:\\LuuCongTuanEm_2123110139\\Example\\Form9.cs [Design]",
-              "RelativeToolTip": "Example\\Form9.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:56:23.589Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form9.cs",
-              "DocumentMoniker": "D:\\LuuCongTuanEm_2123110139\\Example\\Form9.cs",
-              "RelativeDocumentMoniker": "Example\\Form9.cs",
-              "ToolTip": "D:\\LuuCongTuanEm_2123110139\\Example\\Form9.cs",
-              "RelativeToolTip": "Example\\Form9.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:50:21.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form9.Designer.cs",
-              "DocumentMoniker": "D:\\LuuCongTuanEm_2123110139\\Example\\Form9.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Form9.Designer.cs",
-              "ToolTip": "D:\\LuuCongTuanEm_2123110139\\Example\\Form9.Designer.cs",
-              "RelativeToolTip": "Example\\Form9.Designer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:50:20.117Z",
               "EditorCaption": ""
             }
           ]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LuuCongTuanEm_2123110139\\Example\\Example.csproj": {}
+    "D:\\lcte_C#\\Example\\Example.csproj": {}
   },
   "projects": {
-    "D:\\LuuCongTuanEm_2123110139\\Example\\Example.csproj": {
+    "D:\\lcte_C#\\Example\\Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LuuCongTuanEm_2123110139\\Example\\Example.csproj",
+        "projectUniqueName": "D:\\lcte_C#\\Example\\Example.csproj",
         "projectName": "Example",
-        "projectPath": "D:\\LuuCongTuanEm_2123110139\\Example\\Example.csproj",
+        "projectPath": "D:\\lcte_C#\\Example\\Example.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\LuuCongTuanEm_2123110139\\Example\\obj\\",
+        "outputPath": "D:\\lcte_C#\\Example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

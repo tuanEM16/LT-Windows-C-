@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Example
 {
@@ -14,7 +15,7 @@ namespace Example
 
         private void GenerateMenuButtons()
         {
-            // Danh sách bài tập
+            // Danh sách bài tập (Đã thêm Bài 17, 18, 19)
             string[,] exercises = new string[,] {
                 { "Bài 1\nHello World", "Form1" },
                 { "Bài 2\nResize Title", "Form2" },
@@ -31,7 +32,10 @@ namespace Example
                 { "Bài 13\nQL Sinh Viên", "Form13" },
                 { "Bài 14\nMusic Play", "Form14" },
                 { "Bài 15\nPicture Box", "Form15" },
-                { "Bài 16\nDataGridView", "Form16" }
+                { "Bài 16\nDataGridView", "Form16" },
+                { "Bài 17\nBindingSource", "Form17" }, 
+                { "Bài 18\nTimer Clock", "Form18" },   
+                { "Bài 19\nGame Move", "Form19" }     
             };
 
             // Xóa các nút cũ (nếu có)
@@ -68,6 +72,7 @@ namespace Example
                 flowLayoutPanel1.Controls.Add(btn);
             }
         }
+
         private void Btn_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
@@ -93,15 +98,19 @@ namespace Example
                 case "Form14": f = new Form14(); break;
                 case "Form15": f = new Form15(); break;
                 case "Form16": f = new Form16(); break;
+                case "Form17": f = new Form17(); break;
+                case "Form18": f = new Form18(); break;
+                case "Form19": f = new Form19(); break; 
             }
 
             if (f != null)
             {
+                f.StartPosition = FormStartPosition.CenterScreen; // Căn giữa màn hình khi mở
                 f.ShowDialog(); // Hiện form lên
             }
             else
             {
-                MessageBox.Show("Form này chưa được tạo hoặc chưa có trong danh sách!");
+                MessageBox.Show("Form này chưa được tạo hoặc chưa có trong danh sách code!");
             }
         }
     }

@@ -35,7 +35,10 @@ namespace Example
                 { "Bài 16\nDataGridView", "Form16" },
                 { "Bài 17\nBindingSource", "Form17" }, 
                 { "Bài 18\nTimer Clock", "Form18" },   
-                { "Bài 19\nGame Move", "Form19" }     
+                { "Bài 19\nGame Move", "Form19" },
+                { "Bài 20\nBall Game", "Form20" },
+                { "Bài 21\nDrop Egg", "Form21" },
+                { "Bài 22\nFull Game", "Form22" }
             };
 
             // Xóa các nút cũ (nếu có)
@@ -100,7 +103,10 @@ namespace Example
                 case "Form16": f = new Form16(); break;
                 case "Form17": f = new Form17(); break;
                 case "Form18": f = new Form18(); break;
-                case "Form19": f = new Form19(); break; 
+                case "Form19": f = new Form19(); break;
+                case "Form20": f = new Form20(); break;
+                case "Form21": f = new Form21(); break;
+                case "Form22": f = new Form22(); break;
             }
 
             if (f != null)

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\lcte_C#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\sounds\\music.wav||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\sounds\\music.wav||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\sounds\\music.designer.wav||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\sounds\\music.designer.wav||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\formgamerunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\formgamerunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\form22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\form20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\form22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\form22.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form22.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\formgamerunner.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\formgamerunner.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\form20.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\form20.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\formgamerunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|solutionrelative:example\\formgamerunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{568B2E40-3974-4589-803D-8F1FC8FF3936}|Example\\Example.csproj|d:\\lcte_c#\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\lcte_C#\\Example\\Program.cs",
               "RelativeDocumentMoniker": "Example\\Program.cs",
@@ -51,84 +55,97 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T07:25:53.031Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form22.cs",
-              "DocumentMoniker": "D:\\lcte_C#\\Example\\Form22.cs",
-              "RelativeDocumentMoniker": "Example\\Form22.cs",
-              "ToolTip": "D:\\lcte_C#\\Example\\Form22.cs",
-              "RelativeToolTip": "Example\\Form22.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:16:47.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form22.Designer.cs",
-              "DocumentMoniker": "D:\\lcte_C#\\Example\\Form22.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Form22.Designer.cs",
-              "ToolTip": "D:\\lcte_C#\\Example\\Form22.Designer.cs",
-              "RelativeToolTip": "Example\\Form22.Designer.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:16:45.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form22.cs [Design]",
-              "DocumentMoniker": "D:\\lcte_C#\\Example\\Form22.cs",
-              "RelativeDocumentMoniker": "Example\\Form22.cs",
-              "ToolTip": "D:\\lcte_C#\\Example\\Form22.cs [Design]",
-              "RelativeToolTip": "Example\\Form22.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:16:40.465Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form20.cs",
-              "DocumentMoniker": "D:\\lcte_C#\\Example\\Form20.cs",
-              "RelativeDocumentMoniker": "Example\\Form20.cs",
-              "ToolTip": "D:\\lcte_C#\\Example\\Form20.cs",
-              "RelativeToolTip": "Example\\Form20.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:57:14.579Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form20.Designer.cs",
-              "DocumentMoniker": "D:\\lcte_C#\\Example\\Form20.Designer.cs",
-              "RelativeDocumentMoniker": "Example\\Form20.Designer.cs",
-              "ToolTip": "D:\\lcte_C#\\Example\\Form20.Designer.cs",
-              "RelativeToolTip": "Example\\Form20.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:57:13.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MenuForm.cs",
               "DocumentMoniker": "D:\\lcte_C#\\Example\\MenuForm.cs",
               "RelativeDocumentMoniker": "Example\\MenuForm.cs",
               "ToolTip": "D:\\lcte_C#\\Example\\MenuForm.cs",
               "RelativeToolTip": "Example\\MenuForm.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T07:01:59.54Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "music.Designer.wav",
+              "DocumentMoniker": "D:\\lcte_C#\\Example\\Sounds\\music.Designer.wav",
+              "RelativeDocumentMoniker": "Example\\Sounds\\music.Designer.wav",
+              "ToolTip": "D:\\lcte_C#\\Example\\Sounds\\music.Designer.wav",
+              "RelativeToolTip": "Example\\Sounds\\music.Designer.wav",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALeSURBVDhPrZPNT1NpFIef296Xy9wLyNRaqBYxmtYiNMBiGklIXExijDsXlpXxDyDzJzhbN8awMrLRzILlLAyJM\u002BNMMplESJQ4mBS/aEZtwbSkpUBKW/Devq8LAftxMTPJ/JKTvB/nPPd38t4D/6eUUtr\u002B2ufzBYLBYH9jRqu2trbWc7lcxnEcp/muQYlEYjKVSsmVlRWZyWRc4/27d7WZmZm5eDx\u002BQdO0AzOumpiYmCwWi/JrqlYqcmlpyZ6dnZ2PxWLxZgaAp/lAKXV4fE7xjo2NxX\u002B6f/9eLBb7rrm\u002BBeimB8kNpv5YxZFQKpVIp9Oeb48ePffjjRvTHR0dp\u002BtzXYHNznK7cPNllUf5GidPncI0TdbX1wn19QWFEINA235tA1C5wJRSdJteIj7BnaU8WWUSiUQYHh7G7/d7vLpuAcIVuIdsiU3bJmrscPFIG3\u002BltpGytneH5ml67UagAuUSnQZ88Owy0G2iHO3g3E1NwC9t7tiS39\u002BW\u002BeHPIlNJyaDRwetciTZvbS/VnXhoywvZXRK/bDD9psyz1QrbZYfvT3dydbC7Lq9VjY\u002BiQEmFUiC8Euubj/Bxh7atEuc72xkMWfi7jf/QMhx8/ZxP8POlY/x25QQPr/WRGD\u002BORwMpJUrJQx169xdDQ0Nx27YvCyGYm5vjn9QyemWDkKlxxm9ye\u002BoWwWAvL168pFAoYBiCu3enK38vLv5aKZffADbNDgOBAKurH0inM6ytrVGr1TBNk4WFBcLhMMlkklAoRKFQ4MmTp4yMjLQ4bQD2959keXmZQCBAV1cX5fI2QgieP1/EsiyKxSLt7Qb5fJ5Xr14TjUbrywHQ6ze9vb2cPRshHI5QrVZRSiKEYHx8nHA4QjabxTAMRkdH2dzcxLIsvB5vg6mDv7ynpyc6MDBwXSnl0XXdkp/HAU3TUEqh6zqO47A/GEoppJTO/Pz8I9u2HwPlBuCejgDt9cP\u002BL1QFNoAawCe8\u002BJmjx\u002BeU1gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-12-19T09:11:42.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "music.wav",
+              "DocumentMoniker": "D:\\lcte_C#\\Example\\Sounds\\music.wav",
+              "RelativeDocumentMoniker": "Example\\Sounds\\music.wav",
+              "ToolTip": "D:\\lcte_C#\\Example\\Sounds\\music.wav",
+              "RelativeToolTip": "Example\\Sounds\\music.wav",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAASAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALeSURBVDhPrZPNT1NpFIef296Xy9wLyNRaqBYxmtYiNMBiGklIXExijDsXlpXxDyDzJzhbN8awMrLRzILlLAyJM\u002BNMMplESJQ4mBS/aEZtwbSkpUBKW/Devq8LAftxMTPJ/JKTvB/nPPd38t4D/6eUUtr\u002B2ufzBYLBYH9jRqu2trbWc7lcxnEcp/muQYlEYjKVSsmVlRWZyWRc4/27d7WZmZm5eDx\u002BQdO0AzOumpiYmCwWi/JrqlYqcmlpyZ6dnZ2PxWLxZgaAp/lAKXV4fE7xjo2NxX\u002B6f/9eLBb7rrm\u002BBeimB8kNpv5YxZFQKpVIp9Oeb48ePffjjRvTHR0dp\u002BtzXYHNznK7cPNllUf5GidPncI0TdbX1wn19QWFEINA235tA1C5wJRSdJteIj7BnaU8WWUSiUQYHh7G7/d7vLpuAcIVuIdsiU3bJmrscPFIG3\u002BltpGytneH5ml67UagAuUSnQZ88Owy0G2iHO3g3E1NwC9t7tiS39\u002BW\u002BeHPIlNJyaDRwetciTZvbS/VnXhoywvZXRK/bDD9psyz1QrbZYfvT3dydbC7Lq9VjY\u002BiQEmFUiC8Euubj/Bxh7atEuc72xkMWfi7jf/QMhx8/ZxP8POlY/x25QQPr/WRGD\u002BORwMpJUrJQx169xdDQ0Nx27YvCyGYm5vjn9QyemWDkKlxxm9ye\u002BoWwWAvL168pFAoYBiCu3enK38vLv5aKZffADbNDgOBAKurH0inM6ytrVGr1TBNk4WFBcLhMMlkklAoRKFQ4MmTp4yMjLQ4bQD2959keXmZQCBAV1cX5fI2QgieP1/EsiyKxSLt7Qb5fJ5Xr14TjUbrywHQ6ze9vb2cPRshHI5QrVZRSiKEYHx8nHA4QjabxTAMRkdH2dzcxLIsvB5vg6mDv7ynpyc6MDBwXSnl0XXdkp/HAU3TUEqh6zqO47A/GEoppJTO/Pz8I9u2HwPlBuCejgDt9cP\u002BL1QFNoAawCe8\u002BJmjx\u002BeU1gAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-12-19T09:11:37.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormGameRunner.cs",
+              "DocumentMoniker": "D:\\lcte_C#\\Example\\FormGameRunner.cs",
+              "RelativeDocumentMoniker": "Example\\FormGameRunner.cs",
+              "ToolTip": "D:\\lcte_C#\\Example\\FormGameRunner.cs",
+              "RelativeToolTip": "Example\\FormGameRunner.cs",
+              "ViewState": "AgIAAIgBAAAAAAAAAAA6wJMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:23:07.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormGameRunner.Designer.cs",
+              "DocumentMoniker": "D:\\lcte_C#\\Example\\FormGameRunner.Designer.cs",
+              "RelativeDocumentMoniker": "Example\\FormGameRunner.Designer.cs",
+              "ToolTip": "D:\\lcte_C#\\Example\\FormGameRunner.Designer.cs",
+              "RelativeToolTip": "Example\\FormGameRunner.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:23:06.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormGameRunner.cs [Design]",
+              "DocumentMoniker": "D:\\lcte_C#\\Example\\FormGameRunner.cs",
+              "RelativeDocumentMoniker": "Example\\FormGameRunner.cs",
+              "ToolTip": "D:\\lcte_C#\\Example\\FormGameRunner.cs [Design]",
+              "RelativeToolTip": "Example\\FormGameRunner.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:22:49.28Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form22.cs",
+              "DocumentMoniker": "D:\\lcte_C#\\Example\\Form22.cs",
+              "RelativeDocumentMoniker": "Example\\Form22.cs",
+              "ToolTip": "D:\\lcte_C#\\Example\\Form22.cs",
+              "RelativeToolTip": "Example\\Form22.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:16:47.096Z",
               "EditorCaption": ""
             }
           ]

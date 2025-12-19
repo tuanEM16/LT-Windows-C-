@@ -70,3 +70,9 @@ D:\lcte_C#\Example\obj\Debug\net8.0-windows\Example.Form19.resources
 D:\lcte_C#\Example\obj\Debug\net8.0-windows\Example.Form20.resources
 D:\lcte_C#\Example\obj\Debug\net8.0-windows\Example.Form21.resources
 D:\lcte_C#\Example\obj\Debug\net8.0-windows\Example.Form22.resources
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\egg_gold_broken.png
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\basket.png
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\egg_gold.png
+D:\lcte_C#\Example\obj\Debug\net8.0-windows\Example.FormGameRunner.resources
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\tower.png
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\player.gif

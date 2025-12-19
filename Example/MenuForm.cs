@@ -38,7 +38,8 @@ namespace Example
                 { "Bài 19\nGame Move", "Form19" },
                 { "Bài 20\nBall Game", "Form20" },
                 { "Bài 21\nDrop Egg", "Form21" },
-                { "Bài 22\nFull Game", "Form22" }
+                { "Bài 22\nFull Game", "Form22" },
+                { "Bài 22\nFormGameRunner", "FormGameRunner" }
             };
 
             // Xóa các nút cũ (nếu có)
@@ -107,6 +108,7 @@ namespace Example
                 case "Form20": f = new Form20(); break;
                 case "Form21": f = new Form21(); break;
                 case "Form22": f = new Form22(); break;
+                case "FormGameRunner": f = new FormGameRunner(); break;
             }
 
             if (f != null)

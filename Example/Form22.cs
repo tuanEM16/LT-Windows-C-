@@ -6,98 +6,126 @@ namespace Example
 {
     public partial class Form22 : Form
     {
-        // --- KHAI BÁO CÁC ĐỐI TƯỢNG ---
+        // Khai báo đối tượng
         PictureBox pbEgg = new PictureBox();
         PictureBox pbBasket = new PictureBox();
         System.Windows.Forms.Timer tmGame = new System.Windows.Forms.Timer();
-        Label lblScore = new Label(); // Hiển thị điểm số
+        Label lblScore = new Label();
 
-        // Thông số Trứng
         int xEgg = 300;
         int yEgg = 0;
-        int yDelta = 5; // Tốc độ rơi
+        int yDelta = 5;
 
-        // Thông số Rổ
         int xBasket = 300;
-        int yBasket = 500; // Vị trí gần đáy
-        int xDeltaBasket = 20; // Tốc độ di chuyển rổ
+        int yBasket = 500;
+        int xDeltaBasket = 25; // Tăng tốc độ rổ lên chút cho dễ hứng
 
         int score = 0;
 
         public Form22()
         {
             InitializeComponent();
-            // Chống giật hình
-            this.DoubleBuffered = true;
+            this.DoubleBuffered = true; // Chống giật
         }
 
         private void Form22_Load(object sender, EventArgs e)
         {
             // Cấu hình Form
-            this.BackColor = Color.LightSkyBlue; // Nền trời xanh
-            this.KeyPreview = true; // Bắt buộc để nhận phím
-            this.Size = new Size(600, 600);
+            this.BackColor = Color.LightSkyBlue;
+            this.KeyPreview = true;
+            this.Size = new Size(600, 700); // Tăng chiều cao lên chút
 
-            // 1. TẠO CÁI RỔ (Slide 173)
-            pbBasket.Size = new Size(100, 40);
-            yBasket = this.ClientSize.Height - 50; // Đặt sát đáy
+            // --- 1. TẠO RỔ (Load ảnh) ---
+            pbBasket.SizeMode = PictureBoxSizeMode.StretchImage; // Co giãn ảnh cho vừa khung
+            pbBasket.Size = new Size(120, 80);
+            yBasket = this.ClientSize.Height - 100;
             pbBasket.Location = new Point(xBasket, yBasket);
-            pbBasket.BackColor = Color.OrangeRed; // Màu rổ
-            // Nếu có ảnh: pbBasket.Image = Image.FromFile(@"D:\basket.png");
+            pbBasket.BackColor = Color.Transparent; // Nền trong suốt
+
+            // Load ảnh từ thư mục Images (Lùi ra 2 cấp thư mục để tìm)
+            try
+            {
+                pbBasket.Image = Image.FromFile("Images/basket.png");
+            }
+            catch
+            {
+                pbBasket.BackColor = Color.OrangeRed; // Nếu lỗi ảnh thì dùng màu cũ
+            }
             this.Controls.Add(pbBasket);
 
-            // 2. TẠO QUẢ TRỨNG (Slide 167 + Fix hình bầu dục)
-            pbEgg.Size = new Size(40, 60);
+            // --- 2. TẠO TRỨNG (Load ảnh) ---
+            pbEgg.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbEgg.Size = new Size(50, 70);
             pbEgg.Location = new Point(xEgg, yEgg);
-            pbEgg.BackColor = Color.Gold;
-            // Cắt hình bầu dục cho trứng
-            System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
-            path.AddEllipse(0, 0, pbEgg.Width, pbEgg.Height);
-            pbEgg.Region = new Region(path);
+            pbEgg.BackColor = Color.Transparent;
+
+            try
+            {
+                pbEgg.Image = Image.FromFile("Images/egg_gold.png");
+            }
+            catch
+            {
+                pbEgg.BackColor = Color.Gold; // Nếu lỗi ảnh thì dùng màu cũ
+            }
             this.Controls.Add(pbEgg);
 
-            // 3. TẠO BẢNG ĐIỂM
+            // --- 3. BẢNG ĐIỂM ---
             lblScore.Text = "Score: 0";
             lblScore.Font = new Font("Arial", 16, FontStyle.Bold);
             lblScore.Location = new Point(10, 10);
             lblScore.AutoSize = true;
             this.Controls.Add(lblScore);
 
-            // 4. CẤU HÌNH TIMER
+            // --- 4. TIMER ---
             tmGame.Interval = 20;
             tmGame.Tick += new EventHandler(tmGame_Tick);
             tmGame.Start();
         }
 
-        // --- XỬ LÝ LOGIC GAME (TIMER) ---
         void tmGame_Tick(object sender, EventArgs e)
         {
-            // Trứng rơi xuống
+            // Trứng rơi
             yEgg += yDelta;
             pbEgg.Location = new Point(xEgg, yEgg);
 
-            // --- KIỂM TRA HỨNG TRÚNG (Va chạm) ---
+            // --- HỨNG TRÚNG ---
             if (pbEgg.Bounds.IntersectsWith(pbBasket.Bounds))
             {
-                score++; // Cộng điểm
+                score++;
                 lblScore.Text = "Score: " + score;
-
-                // Tăng độ khó: Cứ 5 điểm thì rơi nhanh hơn chút
-                if (score % 5 == 0) yDelta += 1;
+                if (score % 5 == 0) yDelta += 2; // Tăng độ khó
 
                 ResetEgg(); // Sinh trứng mới
             }
 
-            // --- KIỂM TRA HỨNG TRƯỢT (Chạm đất) ---
-            if (yEgg > this.ClientSize.Height)
+            // --- RƠI XUỐNG ĐẤT (VỠ) ---
+            if (yEgg > this.ClientSize.Height - pbEgg.Height)
             {
                 tmGame.Stop();
-                DialogResult res = MessageBox.Show("Vỡ trứng rồi!\nĐiểm của bạn: " + score + "\nChơi lại không?", "Game Over", MessageBoxButtons.YesNo);
+
+                // Đổi hình trứng vỡ (Slide 169)
+                try
+                {
+                    pbEgg.Image = Image.FromFile("Images/egg_gold_broken.png");
+                }
+                catch
+                {
+                    pbEgg.BackColor = Color.Red;
+                }
+
+                DialogResult res = MessageBox.Show("Trứng vỡ rồi!\nĐiểm: " + score + "\nChơi lại?", "Game Over", MessageBoxButtons.YesNo);
                 if (res == DialogResult.Yes)
                 {
-                    score = 0;
-                    yDelta = 5; // Reset tốc độ
-                    lblScore.Text = "Score: 0";
+                    // Reset game
+                    score = 0; yDelta = 5; lblScore.Text = "Score: 0";
+
+                    // Đổi lại hình trứng nguyên vẹn
+                    try
+                    {
+                        pbEgg.Image = Image.FromFile("Images/egg_gold.png");
+                    }
+                    catch { pbEgg.BackColor = Color.Gold; }
+
                     ResetEgg();
                     tmGame.Start();
                 }
@@ -108,31 +136,22 @@ namespace Example
             }
         }
 
-        // Hàm sinh trứng lại từ trên đỉnh (Ngẫu nhiên vị trí ngang)
         void ResetEgg()
         {
             yEgg = 0;
             Random rnd = new Random();
-            // Random X trong phạm vi màn hình
             xEgg = rnd.Next(0, this.ClientSize.Width - pbEgg.Width);
             pbEgg.Location = new Point(xEgg, yEgg);
         }
 
-        // --- ĐIỀU KHIỂN RỔ (Slide 174) ---
         private void Form22_KeyDown(object sender, KeyEventArgs e)
         {
-            // Qua Phải (Kiểm tra không cho chạy ra ngoài mép phải)
             if (e.KeyCode == Keys.Right && pbBasket.Right < this.ClientSize.Width)
-            {
                 xBasket += xDeltaBasket;
-            }
-            // Qua Trái (Kiểm tra không cho chạy ra ngoài mép trái)
-            if (e.KeyCode == Keys.Left && pbBasket.Left > 0)
-            {
-                xBasket -= xDeltaBasket;
-            }
 
-            // Cập nhật vị trí rổ
+            if (e.KeyCode == Keys.Left && pbBasket.Left > 0)
+                xBasket -= xDeltaBasket;
+
             pbBasket.Location = new Point(xBasket, yBasket);
         }
     }

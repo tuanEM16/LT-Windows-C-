@@ -76,3 +76,9 @@ D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\egg_gold.png
 D:\lcte_C#\Example\obj\Debug\net8.0-windows\Example.FormGameRunner.resources
 D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\tower.png
 D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\player.gif
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Sounds\Jump.wav
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Sounds\gameover.wav
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Sounds\hit.wav
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Sounds\victory.wav
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Sounds\music.wav
+D:\lcte_C#\Example\bin\Debug\net8.0-windows\Images\platform.png
